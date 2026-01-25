@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Body */
 body {
-	font-family: source-sans-pro;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	background-color: #f2f2f2;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -35,15 +35,7 @@ header {
     margin-left: 25px;
     letter-spacing: 4px;
 }
-.footer {
-    color: #72007a;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 30px;
-    letter-spacing: 2px;
-	font-weight: bold;
-	font-size:2.5em;
-}
+
 nav {
 	float: right;
 	width: 50%;
@@ -74,14 +66,7 @@ ul li:hover a {
 	color: #2C9AB7;
 }
 
-.content ul {
-	list-style:disc;
-}
-.content li {
-	text-align: left;
-	transition: all 0.3s linear;
-	margin-bottom: 1em;
-}
+
 .header {
 	color: #FFFFFF;
 	text-align: center;
@@ -115,17 +100,41 @@ ul li:hover a {
 }
 .content h1 {
 	color: #72007a;
-	font-size: 4em;
+	font-size: 5vw;
 	margin-bottom: 1.5em;
 }
+.content h2 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 3vw;
+	line-height: 0%;
+	margin-top: 1.5em;
+}
 .content p {
-	font-size: 2em;
+	font-size: 3vw;
+}
+.content ul {
+	list-style:disc;
+}
+.content li {
+	font-size: 3vw;
+	text-align: left;
+	transition: all 0.3s linear;
+	margin-bottom: 1em;
 }
 
 /* Footer */
 footer {
 	background-color: #FFFFFF;
 	padding-bottom: 35px;
+}
+.footer {
+    color: #72007a;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 2px;
+	font-weight: bold;
+	font-size:4vw;
 }
 .footer_column {
 	width: 50%;
@@ -199,6 +208,12 @@ footer .footer_column p {
 	background-repeat: repeat;
 }
 
+
+
+
+.footer_banner img{
+	opacity: 0.1;
+}
 
 footer {
 	display: inline-block;
@@ -329,7 +344,8 @@ nav ul li {
 
 /* Small Desktops */
 @media (min-width: 768px) and (max-width: 1096px) {
-.text_column {
+	
+	.text_column {
 	width: 100%;
 }
 .thumbnail {
@@ -352,21 +368,4 @@ nav ul li {
 }
 }
 
-h2 {
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-	font-size: 2em;
-	line-height: 0%;
-	margin-top: 1.5em;
-}
 
-ul {
-	list-style: circle;
-}
-
-li {
-	font-size: 2em;
-}
-
-.footer_banner img{
-	opacity: 0.1;
-}
