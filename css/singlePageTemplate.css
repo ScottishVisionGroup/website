@@ -100,23 +100,23 @@ ul li:hover a {
 }
 .content h1 {
 	color: #72007a;
-	font-size: 5vw;
+	font-size: 4em;
 	margin-bottom: 1.5em;
 }
 .content h2 {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-	font-size: 3vw;
+	font-size: 3em;
 	line-height: 0%;
 	margin-top: 1.5em;
 }
 .content p {
-	font-size: 3vw;
+	font-size: 2em;
 }
 .content ul {
 	list-style:disc;
 }
 .content li {
-	font-size: 3vw;
+	font-size: 2em;
 	text-align: left;
 	transition: all 0.3s linear;
 	margin-bottom: 1em;
@@ -134,7 +134,7 @@ footer {
     margin-top: 30px;
     letter-spacing: 2px;
 	font-weight: bold;
-	font-size:4vw;
+	font-size:3em;
 }
 .footer_column {
 	width: 50%;
